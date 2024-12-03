@@ -1,0 +1,77 @@
+.show-btn {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: white;
+}
+
+@media (min-width: 800px) {
+  .show-btn {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.equal {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.btn:last-child {
+  font-weight: 500; /* Fixed the font-weight value */
+  font-size: 40px;
+  width: 110px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2e30b1;
+}
+
+.clr {
+  color: #d12331;
+}
+
+.exp {
+  color: rgb(44, 14, 214);
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  margin: 6px auto;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50%;
+  background: none;
+  border: 0px;
+  user-select: none;
+}
+
+@media (min-width: 800px) {
+  .btn:hover {
+    background-color: #6dd5ed;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:active,
+  .btn.touched {
+    background-color: #48b1bf;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:active {
+    transform: scale(0.9);
+  }
+
+  .btn.touched {
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn:active {
+    transform: scale(0.9);
+  }
+}
