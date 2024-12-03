@@ -12,7 +12,11 @@ To install the project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Chamis9/Calculator.git
+   git clone https://git.us.qwasar.io/my_reactjs_calculator_176679_qwh37f/my_reactjs_calculator
+
+   or
+   
+   git clone https://github.com/Chamis9/react-calculator
    ```
 2. Navigate to the project directory:
    ```sh
